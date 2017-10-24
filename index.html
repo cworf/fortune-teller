@@ -6,9 +6,71 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title>Template</title>
+    <title>Fortune Teller</title>
   </head>
   <body>
-
+    <div class="container">
+      <form id="survey">
+        <h1>Select all that apply to your life</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-header">
+                Animals
+              </div>
+              <div class="card-body">
+                <label><input type="checkbox" name="c1" value="-2">Black Cat</label>
+                <label><input type="checkbox" name="c1" value="-1">Crow</label>
+                <label><input type="checkbox" name="c1" value="2">Turtle</label>
+                <label><input type="checkbox" name="c1" value="-1">Vole</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-header">
+                Numbers
+              </div>
+              <div class="card-body">
+                <label><input type="checkbox" name="c2" value="1">9</label>
+                <label><input type="checkbox" name="c2" value="0">1</label>
+                <label><input type="checkbox" name="c2" value="2">7</label>
+                <label><input type="checkbox" name="c2" value="-2">666</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-header">
+                Objects
+              </div>
+              <div class="card-body">
+                <label><input type="checkbox" name="c3" value="-2">Blue Car</label>
+                <label><input type="checkbox" name="c3" value="-1">Red Balloon</label>
+                <label><input type="checkbox" name="c3" value="1">Knife</label>
+                <label><input type="checkbox" name="c3" value="2">Broken Pen</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-header">
+                Colors
+              </div>
+              <div class="card-body">
+                <label><input type="checkbox" name="c4" value="2">Rose</label>
+                <label><input type="checkbox" name="c4" value="-1">Wheat</label>
+                <label><input type="checkbox" name="c4" value="-2">Cornsilk</label>
+                <label><input type="checkbox" name="c4" value="1">Crimson</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="result">
+        
+      </div>
+    </div>
   </body>
 </html>

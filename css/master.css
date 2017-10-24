@@ -1,0 +1,17 @@
+label {
+    display: block;
+}
+
+body {
+    background: #000;
+
+}
+
+h1 {
+    text-align: center;
+    color: #4f7aa9;
+}
+
+.result{
+  color:#fff;
+}
